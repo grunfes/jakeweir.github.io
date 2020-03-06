@@ -120,7 +120,7 @@ section .desc img {
     box-shadow: 2px 2px 10px -5px #eee;
 }
 
-.desc p::before, .desc p::after {
+/* .desc p::before, .desc p::after {
     display: inline-block;
     content: ' " ';
     font-size: 36px;
@@ -128,7 +128,7 @@ section .desc img {
     font-family: 'Times New Roman', Times, serif;
     margin: 0 10px;
 
-}
+} */
 
 .text p {
     font-size: 130%;
