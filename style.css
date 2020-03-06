@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Goudy Old Style';
+    font-style: normal;
+    font-weight: normal;
+    src: local('goudos'), url('./goudos.woff') format('woff');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body { 
+    font-family: 'Goudy Old Style', sans-serif;
+    color: #2a1a79;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 10px 0 20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+section {
+    margin: 30px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section img {
+    height: 360px;
+    width: auto;
+}
+
+.image {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-width {
+    width: 1200px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 20px;
+}
+
+.grid__item {
+    align-self: center;
+    justify-self: center;
+}
+
+.one-half {width: 50%;}
+.one-third {width: 33.33%;}
+.two-thirds {width: 66.66%;}
+
+.left {float:left;}
+.right {float:right;}
+
+.ma5 {margin: 5px}
+.ma10 {margin: 10px}
+.ma20 {margin: 20px}
+
+.pa5 {padding: 5px}
+.pa10 {padding: 10px}
+.pa20 {padding: 20px}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: initial;
+}
+
