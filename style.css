@@ -95,6 +95,10 @@ section .image img {
     width: 400px;
 }
 
+.section-authenticity .image img {
+    object-position: center;
+}
+
 /* section .image img {
     height: 360px;
     width: auto;
